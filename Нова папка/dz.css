@@ -1,0 +1,21 @@
+.block{
+width: 700px;
+height: 400px;
+background-color: rgb(98, 209, 209);
+border-radius: 10px;
+}
+.block1{
+    width: 400px;
+    height: 30px;
+background-color: chocolate;
+color: white;
+text-align: center;
+}
+p{
+    margin-left: 550px;
+    font-family: calibri;
+    font-size: 15px;
+    color: rgb(77, 75, 75);
+}
+
+
