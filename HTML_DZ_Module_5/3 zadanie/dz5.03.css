@@ -1,0 +1,145 @@
+body {
+  align-items: center;
+}
+.block1 {
+  width: 230px;
+  height: 350px;
+  border: rgb(235, 235, 235);
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 13px;
+  margin: 15px 17px;
+  box-shadow: 0 0 15px black;
+  transition: transform 0.2s;
+}
+.block2 {
+  width: 230px;
+  height: 350px;
+  border: crimson;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 13px;
+  margin: 15px 17px;
+  box-shadow: 0 0 15px black;
+  transition: transform 0.2s;
+}
+.block3 {
+  width: 230px;
+  height: 350px;
+  border: crimson;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 13px;
+  margin: 15px 17px;
+  box-shadow: 0 0 15px black;
+  transition: transform 0.2s;
+}
+.block4 {
+  width: 230px;
+  height: 350px;
+  border: crimson;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 13px;
+  margin: 15px 17px;
+  box-shadow: 0 0 15px black;
+  transition: transform 0.2s;
+}
+.block1:hover {
+  transform: scale(1.2);
+}
+.block2:hover {
+  transform: scale(1.2);
+}
+.block3:hover {
+  transform: scale(1.2);
+}
+.block4:hover {
+  transform: scale(1.2);
+}
+hr.b1 {
+  color: #c73756;
+  background-color: #c73756;
+  height: 5px;
+  border: 0px;
+}
+hr.b2 {
+  color: #d7913b;
+  background-color: #d7913b;
+  height: 5px;
+  border: 0px;
+}
+hr.b3 {
+  color: #2b6689;
+  background-color: #2b6689;
+  height: 5px;
+  border: 0px;
+}
+hr.b4 {
+  color: #63bb34;
+  background-color: #63bb34;
+  height: 5px;
+  border: 0px;
+}
+div {
+  font-family: calibri;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  font-size: 17px;
+}
+.btn1 {
+  color: white;
+  border-radius: 5px;
+  background-color: #c73756;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  margin-top: 15px;
+  padding-top: 13px;
+}
+.btn2 {
+  color: white;
+  border-radius: 5px;
+  background-color: #d7913b;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  margin-top: 15px;
+  padding-top: 13px;
+}
+.btn3 {
+  color: white;
+  border-radius: 5px;
+  background-color: #2b6689;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  margin-top: 15px;
+  padding-top: 13px;
+}
+.btn4 {
+  color: white;
+  border-radius: 5px;
+  background-color: #63bb34;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  margin-top: 15px;
+  padding-top: 13px;
+}
+p {
+  margin: 10px;
+}
+.btn1:hover {
+  background-color: #811129;
+}
+.btn2:hover {
+  background-color: #72440b;
+}
+.btn3:hover {
+  background-color: #0c364e;
+}
+.btn4:hover {
+  background-color: #214b0b;
+}
