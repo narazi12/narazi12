@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+.container{
+    width: 700px;
+    height: 400px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #9FCDCD;
+    border-radius: 15px;
+    margin: 250px auto;
+    text-align:left;
+    padding-left: 35px;
+    padding-top: 55px;
+    
+}
+input{
+    width: auto;
+    height: 27px;
+    font-size: 18px;
+  background-color: rgb(178, 216, 216);
+  border: 0px;
+  outline-color: black;
+  text-align: center;
+  color: rgb(19, 21, 22);
+  box-shadow: 0 1px 0 rgb(81, 81, 82);
+
+}
+
+.container .label{
+ display: block;
+ margin-bottom: 6px;
+}
+
+.cardgroup{
+    display: flex;
+}
+.cardd{
+    width: 45%;
+}
+input[id="cdate"],input[id="ccvv"]{
+  width: 100px;
+  padding-right: 10px;
+
+}
+input[id="cnumber"],input[id="cname"]{
+    width: 400px;
+    padding-right: 10px;
+  
+  }
+  ::placeholder {
+    color: #789FAC;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+  }
+  p{
+    color:#466C6F;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+  }
+  img{
+    width: 250px;
+height: 230px;
+margin-left: 430px;
+margin-top: -139px;
+  }
+  .block{
+      box-sizing: border-box;
+      width:450px;
+      height: 40px;
+      background-color: #DB6423;
+      color:white;
+      text-align: left;
+      padding-top: 10px;
+      margin-left: -80px;
+      margin-top: -20px;
+      padding-left: 80px;
+  }

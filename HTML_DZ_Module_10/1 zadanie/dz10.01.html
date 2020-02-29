@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card</title>
+    <link rel="stylesheet" href="dz10.01.css" />
+  </head>
+  <style>
+    body {
+      background-color: rgb(220, 255, 255);
+    }
+  </style>
+  <body>
+    <div class="container">
+      <form>
+          <p class="block">CREDIT CARD DETAILS</p>
+        <p for="cnumber">Card Number</p>
+        <input
+          type="text"
+          id="cnumber"
+          name="cnumber"
+          placeholder="1234 0000 6789 0000"
+          data-mask="0000 0000 0000 0000"
+        />
+        <p for="cname">Name on Card</p>
+        <input type="text" id="cname" name="cname" placeholder="IVAN PETROFF" />
+        <div class="cardgroup">
+          <div class="cardd">
+            <p for="cdate">Expiry Date</p>
+            <input type="text" id="cdate" name="cdate" placeholder="00/00" data-mask="00/00"/>
+          </div>
+          <div class="cardd">
+            <p for="ccvv">CVV/CVN</p>
+            <input type="password" id="ccvv" name="ccvv" placeholder="***" data-mask="000"/>
+          </div>
+        </div>
+        <div>
+          <img src="moon_flag.png" />
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  </body>
+</html>
